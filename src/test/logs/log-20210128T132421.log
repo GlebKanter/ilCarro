@@ -1,0 +1,65 @@
+13:24:25 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+13:24:25 INFO  - Start test loginFromValidLoginCsvFileTest
+13:24:36 INFO  - test passed
+13:24:37 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833076983.png
+13:24:37 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:24:37 INFO  - Start test loginFromValidLoginCsvFileTest
+13:24:38 INFO  - test passed
+13:24:38 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833078423.png
+13:24:38 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:24:38 INFO  - Start test loginFromValidLoginCsvFileTest
+13:24:39 INFO  - test passed
+13:24:40 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833079859.png
+13:24:40 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:24:40 INFO  - Start test loginFromValidLoginCsvFileTest
+13:24:41 INFO  - test passed
+13:24:41 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833081386.png
+13:24:41 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:24:41 INFO  - Start test testLoginWithValidData
+13:24:42 INFO  -  
+ user name: my.email1608881337043@gmail.com 
+ user pwd is Aa1234567
+13:24:44 INFO  - test passed
+13:24:45 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833084884.png
+13:24:45 INFO  - Finish test testLoginWithValidData
+ ********
+13:24:45 INFO  - Start test validLoginFromListTest
+13:24:58 INFO  - test passed
+13:24:58 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833098208.png
+13:24:58 INFO  - Finish test validLoginFromListTest
+ ********
+13:24:58 INFO  - Start test validLoginFromListTest
+13:25:11 INFO  - test passed
+13:25:11 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833111442.png
+13:25:11 INFO  - Finish test validLoginFromListTest
+ ********
+13:25:11 INFO  - Start test validLoginFromListTest
+13:25:24 INFO  - test passed
+13:25:25 INFO  - created screenshot src/test/sсreenshots/screenshot-1611833124658.png
+13:25:25 INFO  - Finish test validLoginFromListTest
+ ********
+13:25:25 INFO  - Start test logoutTest
+13:25:35 INFO  - Finish test logoutTest
+ ********
+13:25:35 INFO  - Start test testCarWorkIfUserLoggedIn
+13:26:00 INFO  - Finish test testCarWorkIfUserLoggedIn
+ ********
+13:26:00 INFO  - Start test testCarWorkIfUserLoggedOut
+13:26:13 INFO  - Finish test testCarWorkIfUserLoggedOut
+ ********
+13:26:13 INFO  - Start test testFindCar
+13:26:29 INFO  - Finish test testFindCar
+ ********
+13:26:29 INFO  - Start test testRegistration
+13:26:45 INFO  - Finish test testRegistration
+ ********
+13:26:45 INFO  - Start test testRegistrationNegative
+13:27:01 INFO  - Finish test testRegistrationNegative
+ ********
+13:27:01 INFO  - Start test testRegistrationNegative2
+13:27:06 INFO  - Finish test testRegistrationNegative2
+ ********

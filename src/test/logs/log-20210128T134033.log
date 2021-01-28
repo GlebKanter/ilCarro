@@ -1,0 +1,65 @@
+13:40:39 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+13:40:40 INFO  - Start test testRegistration
+13:41:06 INFO  - Finish test testRegistration
+ ********
+13:41:06 INFO  - Start test testRegistrationNegative
+13:41:21 INFO  - Finish test testRegistrationNegative
+ ********
+13:41:21 INFO  - Start test testRegistrationNegative2
+13:41:27 INFO  - Finish test testRegistrationNegative2
+ ********
+13:41:27 INFO  - Start test testCarWorkIfUserLoggedIn
+13:41:53 INFO  - Finish test testCarWorkIfUserLoggedIn
+ ********
+13:41:53 INFO  - Start test testCarWorkIfUserLoggedOut
+13:42:05 INFO  - Finish test testCarWorkIfUserLoggedOut
+ ********
+13:42:05 INFO  - Start test testFindCar
+13:42:21 INFO  - Finish test testFindCar
+ ********
+13:42:21 INFO  - Start test loginFromValidLoginCsvFileTest
+13:42:22 INFO  - test passed
+13:42:22 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834142375.png
+13:42:22 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:42:22 INFO  - Start test loginFromValidLoginCsvFileTest
+13:42:23 INFO  - test passed
+13:42:24 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834143970.png
+13:42:24 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:42:24 INFO  - Start test loginFromValidLoginCsvFileTest
+13:42:25 INFO  - test passed
+13:42:25 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834145438.png
+13:42:25 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:42:25 INFO  - Start test loginFromValidLoginCsvFileTest
+13:42:27 INFO  - test passed
+13:42:27 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834147018.png
+13:42:27 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+13:42:27 INFO  - Start test testLoginWithValidData
+13:42:27 INFO  -  
+ user name: my.email1608881337043@gmail.com 
+ user pwd is Aa1234567
+13:42:30 INFO  - test passed
+13:42:31 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834150522.png
+13:42:31 INFO  - Finish test testLoginWithValidData
+ ********
+13:42:31 INFO  - Start test validLoginFromListTest
+13:42:43 INFO  - test passed
+13:42:44 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834163872.png
+13:42:44 INFO  - Finish test validLoginFromListTest
+ ********
+13:42:44 INFO  - Start test validLoginFromListTest
+13:42:57 INFO  - test passed
+13:42:57 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834177091.png
+13:42:57 INFO  - Finish test validLoginFromListTest
+ ********
+13:42:57 INFO  - Start test validLoginFromListTest
+13:43:10 INFO  - test passed
+13:43:10 INFO  - created screenshot src/test/sсreenshots/screenshot-1611834190305.png
+13:43:10 INFO  - Finish test validLoginFromListTest
+ ********
+13:43:10 INFO  - Start test logoutTest
+13:43:20 INFO  - Finish test logoutTest
+ ********
