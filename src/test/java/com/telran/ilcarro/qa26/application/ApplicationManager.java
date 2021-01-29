@@ -23,8 +23,17 @@ public class ApplicationManager {
     public static EventFiringWebDriver wd;
     UserHelper userHelper;
     CarHelper carHelper;
+
+
+
+    LoginHelper loginHelper;
     String browser;
+
+
+
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+
+
 
     public String setPassword() {
         return properties.getProperty("web.password");
@@ -97,12 +106,18 @@ public class ApplicationManager {
 
         userHelper = new UserHelper(wd);
         carHelper = new CarHelper(wd);
+        loginHelper = new LoginHelper(wd);
+
 
     }
 
 
     public void stop() {
         wd.quit();
+    }
+
+    public LoginHelper getLoginHelper() {
+        return loginHelper;
     }
 
     public UserHelper getUserHelper() {
@@ -112,4 +127,6 @@ public class ApplicationManager {
     public CarHelper getCarHelper() {
         return carHelper;
     }
+
+
 }

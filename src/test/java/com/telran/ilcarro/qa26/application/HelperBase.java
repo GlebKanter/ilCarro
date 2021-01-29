@@ -50,6 +50,9 @@ public class HelperBase {
         wd.findElement(locator).click();
     }
 
+    public void clickForgotPassword(){
+click(By.xpath("//span[normalize-space()='Click here']"));
+    }
     public void type(By locator, String text) {
         if (text != null) {
             click(locator);
@@ -113,5 +116,17 @@ public class HelperBase {
         File screenshot =
                 new File(pathToFile);
         Files.copy(tmp, screenshot);
+    }
+
+    public void fillEmail(String email) {
+      By locator = (By.cssSelector("input[placeholder='Email']")) ;
+      click(locator);
+        type(locator, email);
+
+
+    }
+
+    public void clickRestore() {
+        clickByCss("input[value='Restore']");
     }
 }

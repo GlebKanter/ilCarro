@@ -45,7 +45,7 @@ public class LoginTest extends TestBase {
         app.getUserHelper().fillLoginForm(user);
         app.getUserHelper().pause(2000);
         app.getUserHelper().clickYallaButton();
-        app.getUserHelper().pause(10000);
+
         testForTestAndScreen();
     }
 
@@ -74,5 +74,12 @@ public class LoginTest extends TestBase {
         testForTestAndScreen();
     }
 
-
+    @Test
+    public void testForgotPassword() {
+        String email = "my.email1608881337043@gmail.com";
+        app.getUserHelper().clickForgotPassword();
+        app.getUserHelper().fillEmail(email);
+        app.getUserHelper().clickRestore();
+        Assert.assertTrue(app.getUserHelper().isElementPresent(By.xpath("//p[normalize-space()='Please, check the mail.']")));
+    }
 }
