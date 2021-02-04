@@ -32,7 +32,7 @@ public class LoginTest extends TestBase {
         Assert.assertTrue(app.getUserHelper().isUserLoggedIn());
 
         logger.info("test passed");
-        String screenshot = "src/test/sсreenshots/screenshot-" + System.currentTimeMillis() + ".png";
+        String screenshot = "src/test/screenshots/screenshot-" + System.currentTimeMillis() + ".png";
         app.getUserHelper().takeScreenshot(screenshot);
         logger.info("created screenshot " + screenshot);
     }
@@ -49,7 +49,7 @@ public class LoginTest extends TestBase {
         testForTestAndScreen();
     }
 
-    @Test(dataProvider = "loginFromValidLoginCsvFile", dataProviderClass = DataProviders.class)
+    @Test( dataProvider = "loginFromValidLoginCsvFile", dataProviderClass = DataProviders.class)
 
     public void loginFromValidLoginCsvFileTest(User user) throws IOException {
         app.getUserHelper().type(user);
@@ -60,7 +60,7 @@ public class LoginTest extends TestBase {
     }
 
 
-    @Test
+    @Test//(enabled = false)
     public void testLoginWithValidData() throws InterruptedException, IOException {
         logger.info(" \n user name: my.email1608881337043@gmail.com" +
                 " \n user pwd is Aa1234567");
@@ -74,12 +74,14 @@ public class LoginTest extends TestBase {
         testForTestAndScreen();
     }
 
-    @Test
-    public void testForgotPassword() {
+    @Test//(enabled = false)
+    public void testForgotPassword() throws InterruptedException {
         String email = "my.email1608881337043@gmail.com";
         app.getUserHelper().clickForgotPassword();
         app.getUserHelper().fillEmail(email);
         app.getUserHelper().clickRestore();
+        app.getUserHelper().pause(2000);
         Assert.assertTrue(app.getUserHelper().isElementPresent(By.xpath("//p[normalize-space()='Please, check the mail.']")));
+
     }
 }

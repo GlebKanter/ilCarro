@@ -1,0 +1,9 @@
+15:56:29 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+15:56:29 INFO  - Start test testLoginWithValidData
+15:56:39 INFO  -  
+ user name: my.email1608881337043@gmail.com 
+ user pwd is Aa1234567
+15:56:42 INFO  - test passed
+15:56:43 INFO  - created screenshot src/test/screenshots/screenshot-1612447002685.png
+15:56:43 INFO  - Finish test testLoginWithValidData
+ ********

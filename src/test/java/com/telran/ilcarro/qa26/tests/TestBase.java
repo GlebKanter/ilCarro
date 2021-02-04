@@ -16,26 +16,22 @@ public class TestBase {
             new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeSuite
-    public void setUp() throws IOException {
-        app.start();
-    }
+   // @BeforeSuite
+
 
     @BeforeMethod
-    public void startLogger(Method m) {
+    public void startLogger(Method m) throws IOException {
         logger.info("Start test " + m.getName());
+               app.start();
     }
 
     @AfterMethod(alwaysRun = true)
-    public void finishLogger(Method m) {
+    public void finishLogger_TearDown(Method m) {
         logger.info("Finish test " + m.getName() +
                 "\n ********");
-    }
-
-    @AfterSuite
-    public void tearDown() {
-
         app.stop();
     }
+
+
 
 }

@@ -63,7 +63,7 @@ public class CarCreationTests extends TestBase {
         fillCarWorkForm();
     }
 
-    @Test
+    @Test//(enabled = false)
     public void testFindCar() throws InterruptedException {
         if (!app.getUserHelper().isUserLoggedIn()) {
             app.getUserHelper().logIn(app.setEmail(), app.setPassword());

@@ -1,0 +1,10 @@
+15:51:07 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+15:51:08 INFO  - Start test testCarWorkIfUserLoggedIn
+15:51:33 INFO  - Finish test testCarWorkIfUserLoggedIn
+ ********
+15:51:33 INFO  - Start test testCarWorkIfUserLoggedOut
+15:51:46 INFO  - Finish test testCarWorkIfUserLoggedOut
+ ********
+15:51:46 INFO  - Start test testFindCar
+15:52:01 INFO  - Finish test testFindCar
+ ********

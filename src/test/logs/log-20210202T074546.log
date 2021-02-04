@@ -1,0 +1,10 @@
+07:45:49 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+07:45:49 INFO  - Start test testRegistration
+07:46:15 INFO  - Finish test testRegistration
+ ********
+07:46:15 INFO  - Start test testRegistrationNegative
+07:46:31 INFO  - Finish test testRegistrationNegative
+ ********
+07:46:31 INFO  - Start test testRegistrationNegative2
+07:46:36 INFO  - Finish test testRegistrationNegative2
+ ********

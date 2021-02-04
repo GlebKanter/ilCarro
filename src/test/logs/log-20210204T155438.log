@@ -1,0 +1,16 @@
+15:54:43 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+15:54:44 INFO  - Start test validLoginFromListTest
+15:54:57 INFO  - test passed
+15:54:57 INFO  - created screenshot src/test/screenshots/screenshot-1612446897344.png
+15:54:57 INFO  - Finish test validLoginFromListTest
+ ********
+15:54:57 INFO  - Start test validLoginFromListTest
+15:55:00 INFO  - test passed
+15:55:01 INFO  - created screenshot src/test/screenshots/screenshot-1612446900864.png
+15:55:01 INFO  - Finish test validLoginFromListTest
+ ********
+15:55:01 INFO  - Start test validLoginFromListTest
+15:55:04 INFO  - test passed
+15:55:04 INFO  - created screenshot src/test/screenshots/screenshot-1612446904350.png
+15:55:04 INFO  - Finish test validLoginFromListTest
+ ********

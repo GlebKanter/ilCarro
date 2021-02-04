@@ -1,0 +1,94 @@
+19:22:15 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+19:22:15 INFO  - Start test testCarWorkIfUserLoggedIn
+19:22:41 INFO  - Finish test testCarWorkIfUserLoggedIn
+ ********
+19:22:41 INFO  - Start test testCarWorkIfUserLoggedOut
+19:23:04 INFO  - Finish test testCarWorkIfUserLoggedOut
+ ********
+19:23:04 INFO  - Start test testFindCar
+19:23:26 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='location']"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c324bfeb8899d5a8d6be8c6beb43d544
+*** Element info: {Using=xpath, value=//input[@placeholder='location']}
+19:23:27 ERROR - Screenshot with error: C:\Users\GLEB\Documents\GitHub\ilCarro\screen1612286607373.png
+19:23:27 INFO  - Finish test testFindCar
+ ********
+19:23:27 INFO  - Start test testRegistration
+19:23:41 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#first_name"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c324bfeb8899d5a8d6be8c6beb43d544
+*** Element info: {Using=id, value=first_name}
+19:23:41 ERROR - Screenshot with error: C:\Users\GLEB\Documents\GitHub\ilCarro\screen1612286621934.png
+19:23:41 INFO  - Finish test testRegistration
+ ********
+19:23:41 INFO  - Start test testRegistrationNegative
+19:23:47 INFO  - Finish test testRegistrationNegative
+ ********
+19:23:47 INFO  - Start test testRegistrationNegative2
+19:23:53 INFO  - Finish test testRegistrationNegative2
+ ********
+19:23:53 INFO  - Start test loginFromValidLoginCsvFileTest
+19:24:04 INFO  - test passed
+19:24:05 INFO  - created screenshot src/test/sсreenshots/screenshot-1612286644646.png
+19:24:05 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:24:05 INFO  - Start test loginFromValidLoginCsvFileTest
+19:24:06 INFO  - test passed
+19:24:07 INFO  - created screenshot src/test/sсreenshots/screenshot-1612286646827.png
+19:24:07 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:24:07 INFO  - Start test loginFromValidLoginCsvFileTest
+19:24:08 INFO  - test passed
+19:24:09 INFO  - created screenshot src/test/sсreenshots/screenshot-1612286648622.png
+19:24:09 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:24:09 INFO  - Start test loginFromValidLoginCsvFileTest
+19:24:10 INFO  - test passed
+19:24:10 INFO  - created screenshot src/test/sсreenshots/screenshot-1612286650182.png
+19:24:10 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:24:10 INFO  - Start test testForgotPassword
+19:24:12 INFO  - Finish test testForgotPassword
+ ********
+19:24:12 INFO  - Start test testLoginWithValidData
+19:24:32 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name=email]"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c324bfeb8899d5a8d6be8c6beb43d544
+*** Element info: {Using=css selector, value=[name=email]}
+19:24:32 ERROR - Screenshot with error: C:\Users\GLEB\Documents\GitHub\ilCarro\screen1612286672819.png
+19:24:32 INFO  - Finish test testLoginWithValidData
+ ********
+19:24:32 INFO  - Finish test validLoginFromListTest
+ ********
+19:24:32 INFO  - Finish test validLoginFromListTest
+ ********
+19:24:32 INFO  - Finish test validLoginFromListTest
+ ********
+19:24:32 INFO  - Start test logoutTest
+19:24:52 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name=email]"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c324bfeb8899d5a8d6be8c6beb43d544
+*** Element info: {Using=css selector, value=[name=email]}
+19:24:53 ERROR - Screenshot with error: C:\Users\GLEB\Documents\GitHub\ilCarro\screen1612286693591.png
+19:24:53 INFO  - Finish test logoutTest
+ ********

@@ -1,0 +1,43 @@
+19:43:19 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+19:43:19 INFO  - Start test loginFromValidLoginCsvFileTest
+19:43:30 INFO  - test passed
+19:43:31 INFO  - created screenshot src/test/sсreenshots/screenshot-1612287810470.png
+19:43:31 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:43:31 INFO  - Start test loginFromValidLoginCsvFileTest
+19:43:31 INFO  - test passed
+19:43:32 INFO  - created screenshot src/test/sсreenshots/screenshot-1612287811987.png
+19:43:32 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:43:32 INFO  - Start test loginFromValidLoginCsvFileTest
+19:43:33 INFO  - test passed
+19:43:33 INFO  - created screenshot src/test/sсreenshots/screenshot-1612287813443.png
+19:43:33 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:43:33 INFO  - Start test loginFromValidLoginCsvFileTest
+19:43:34 INFO  - test passed
+19:43:35 INFO  - created screenshot src/test/sсreenshots/screenshot-1612287814933.png
+19:43:35 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+19:43:35 INFO  - Start test testForgotPassword
+19:43:36 INFO  - Finish test testForgotPassword
+ ********
+19:43:36 INFO  - Start test testLoginWithValidData
+19:43:56 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name=email]"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86f9f3301143fb98561d11ffd4e6642d
+*** Element info: {Using=css selector, value=[name=email]}
+19:43:57 ERROR - Screenshot with error: C:\Users\GLEB\Documents\GitHub\ilCarro\screen1612287837253.png
+19:43:57 INFO  - Finish test testLoginWithValidData
+ ********
+19:43:57 INFO  - Finish test validLoginFromListTest
+ ********
+19:43:57 INFO  - Finish test validLoginFromListTest
+ ********
+19:43:57 INFO  - Finish test validLoginFromListTest
+ ********

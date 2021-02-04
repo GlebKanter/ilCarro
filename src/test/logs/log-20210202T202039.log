@@ -1,0 +1,39 @@
+20:20:46 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+20:20:47 INFO  - Start test loginFromValidLoginCsvFileTest
+20:20:58 INFO  - test passed
+20:20:58 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+20:20:58 INFO  - Start test loginFromValidLoginCsvFileTest
+20:20:59 INFO  - test passed
+20:21:00 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+20:21:00 INFO  - Start test loginFromValidLoginCsvFileTest
+20:21:01 INFO  - test passed
+20:21:01 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+20:21:01 INFO  - Start test loginFromValidLoginCsvFileTest
+20:21:02 INFO  - test passed
+20:21:03 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+20:21:03 INFO  - Start test testLoginWithValidData
+20:21:03 INFO  -  
+ user name: my.email1608881337043@gmail.com 
+ user pwd is Aa1234567
+20:21:06 INFO  - test passed
+20:21:06 INFO  - Finish test testLoginWithValidData
+ ********
+20:21:06 INFO  - Start test validLoginFromListTest
+20:21:09 INFO  - test passed
+20:21:10 INFO  - Finish test validLoginFromListTest
+ ********
+20:21:10 INFO  - Start test validLoginFromListTest
+20:21:13 INFO  - test passed
+20:21:13 INFO  - Finish test validLoginFromListTest
+ ********
+20:21:13 INFO  - Start test validLoginFromListTest
+20:21:16 INFO  - test passed
+20:21:17 INFO  - Finish test validLoginFromListTest
+ ********
+20:21:17 INFO  - Start test logoutTest
+20:21:27 INFO  - Finish test logoutTest
+ ********
