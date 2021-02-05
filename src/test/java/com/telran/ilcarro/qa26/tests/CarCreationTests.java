@@ -43,6 +43,7 @@ public class CarCreationTests extends TestBase {
             app.getCarHelper().fillCarForm(testcar);
             app.getUserHelper().pause(2000);
             app.getCarHelper().clickYallaButton();
+            
         }
 
     @Test(enabled = true)
