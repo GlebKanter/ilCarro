@@ -1,0 +1,83 @@
+11:52:39 INFO  - Start test testRegistration
+11:52:42 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:53:08 INFO  - Finish test testRegistration
+ ********
+11:53:08 INFO  - Start test testRegistrationNegative
+11:53:12 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:53:28 INFO  - Finish test testRegistrationNegative
+ ********
+11:53:29 INFO  - Start test testRegistrationNegative2
+11:53:33 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:53:38 INFO  - Finish test testRegistrationNegative2
+ ********
+11:53:39 INFO  - Start test loginFromValidLoginCsvFileTest
+11:53:43 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:53:54 INFO  - test passed
+11:53:55 INFO  - created screenshot src/test/screenshots/screenshot-1612518834757.png
+11:53:55 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+11:53:55 INFO  - Start test loginFromValidLoginCsvFileTest
+11:53:59 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:54:11 INFO  - test passed
+11:54:11 INFO  - created screenshot src/test/screenshots/screenshot-1612518851091.png
+11:54:11 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+11:54:12 INFO  - Start test loginFromValidLoginCsvFileTest
+11:54:15 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:54:26 INFO  - test passed
+11:54:26 INFO  - created screenshot src/test/screenshots/screenshot-1612518866383.png
+11:54:26 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+11:54:27 INFO  - Start test loginFromValidLoginCsvFileTest
+11:54:30 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:54:41 INFO  - test passed
+11:54:42 INFO  - created screenshot src/test/screenshots/screenshot-1612518881702.png
+11:54:42 INFO  - Finish test loginFromValidLoginCsvFileTest
+ ********
+11:54:42 INFO  - Start test testForgotPassword
+11:54:45 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:54:58 INFO  - Finish test testForgotPassword
+ ********
+11:54:59 INFO  - Start test testLoginWithValidData
+11:55:01 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:55:11 INFO  -  
+ user name: my.email1608881337043@gmail.com 
+ user pwd is Aa1234567
+11:55:14 INFO  - test passed
+11:55:15 INFO  - created screenshot src/test/screenshots/screenshot-1612518914816.png
+11:55:15 INFO  - Finish test testLoginWithValidData
+ ********
+11:55:16 INFO  - Start test validLoginFromListTest
+11:55:18 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:55:32 INFO  - test passed
+11:55:32 INFO  - created screenshot src/test/screenshots/screenshot-1612518932111.png
+11:55:32 INFO  - Finish test validLoginFromListTest
+ ********
+11:55:33 INFO  - Start test validLoginFromListTest
+11:55:37 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:55:51 INFO  - test passed
+11:55:51 INFO  - created screenshot src/test/screenshots/screenshot-1612518951022.png
+11:55:51 INFO  - Finish test validLoginFromListTest
+ ********
+11:55:52 INFO  - Start test validLoginFromListTest
+11:55:55 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:56:08 INFO  - test passed
+11:56:08 INFO  - created screenshot src/test/screenshots/screenshot-1612518968297.png
+11:56:08 INFO  - Finish test validLoginFromListTest
+ ********
+11:56:09 INFO  - Start test testCarWorkIfUserLoggedIn
+11:56:13 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:56:39 INFO  - Finish test testCarWorkIfUserLoggedIn
+ ********
+11:56:39 INFO  - Start test testCarWorkIfUserLoggedOut
+11:56:46 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:57:09 INFO  - Finish test testCarWorkIfUserLoggedOut
+ ********
+11:57:10 INFO  - Start test testFindCar
+11:57:13 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:57:29 INFO  - Finish test testFindCar
+ ********
+11:57:29 INFO  - Start test logoutTest
+11:57:35 INFO  - site: https://ilcarro-dev-v1.firebaseapp.com/
+11:57:58 INFO  - Finish test logoutTest
+ ********
